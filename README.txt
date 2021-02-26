@@ -63,3 +63,11 @@ $ git commit -m "Changed by nepenthes, 2.26.2021:15:05"
 
 ### break point for now... check logs @
 $ cat .git/logs/HEAD
+
+
+## ignore files
+# inorder to ignore a file in your git directory
+# tell git by creating an invisible file, e.g.
+# '.<filename>'
+# !!!! that didn't work... uhhh ?!?
+ok... comeback to this
