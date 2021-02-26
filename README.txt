@@ -60,3 +60,6 @@ $ git commit -m "Changed by nepenthes, 2.26.2021:15:05"
 [master 20a0217] Changed by nepenthes, 2.26.2021:15:04
  3 files changed, 45 insertions(+), 1 deletion(-)
  create mode 100644 README.txt
+
+### break point for now... check logs @
+$ cat .git/logs/HEAD
