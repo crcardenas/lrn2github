@@ -38,3 +38,25 @@ $ git add .
 ... new file:   index.html ...
 # after saving the changes in a text editor we get
 ... modified:   index.html ...
+
+## commit changes!
+# this function:
+$git commit
+# opens up a text editor so you can add comments
+# or notifications to other folks about the changes.
+#I left a line without a hashtag in there which should
+#give us a comment.
+# the output looks like this:
+[master (root-commit) 881282e] nepenthes_lrns2git
+ 2 files changed, 11 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 prog.py
+# '$ git status' should now indicate that we have nothing
+# in our cache to commit
+
+## command line add comment:
+$ git commit -m "Changed by nepenthes, 2.26.2021:15:05"
+# and the output should look like:
+[master 20a0217] Changed by nepenthes, 2.26.2021:15:04
+ 3 files changed, 45 insertions(+), 1 deletion(-)
+ create mode 100644 README.txt
