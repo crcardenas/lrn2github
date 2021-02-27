@@ -67,7 +67,6 @@ $ cat .git/logs/HEAD
 
 ## ignore files
 # inorder to ignore a file in your git directory
-# tell git by creating an invisible file, e.g.
-# '.<filename>'
-# !!!! that didn't work... uhhh ?!?
-ok... comeback to this
+# tell git by creating an invisible file in the git direcotyr
+# e.g. use text editor like atom to create .gitignore
+# and write line by line the files to ignore
