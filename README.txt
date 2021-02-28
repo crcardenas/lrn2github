@@ -70,3 +70,6 @@ $ cat .git/logs/HEAD
 # tell git by creating an invisible file in the git direcotyr
 # e.g. use text editor like atom to create .gitignore
 # and write line by line the files to ignore
+
+## create repositories on github and push with code...
+# need to recall passwords :')
